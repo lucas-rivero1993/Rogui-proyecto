@@ -18,7 +18,7 @@ h1,
 h2,
 h3 {
     /** font-family: 'Roboto', sans-serif;**/
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif; 
     font-weight: 900;
 }
 
@@ -39,7 +39,7 @@ h3 {
 
 a {
     font-size: 2rem;
-    text-decoration: none;
+    text-decoration: none !important; 
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     padding: 2rem;
@@ -80,25 +80,15 @@ header {
 /** Navegacion **/
 .navegacion-principal {
     background-color: #000000;
-    border: 3px solid #FE0202;
+    border-top: 3px solid #FE0202;
     margin-bottom: 2rem;
 }
-
-@media (min-width: 300px) {
-    .navegacion-principal__lista {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 @media (min-width: 768px) {
-    .navegacion-principal__lista {
+    .nav-p{
         display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
     }
 }
-
 .navegacion-principal__lista {
     text-align: center;
     color: #ffffff;
@@ -108,33 +98,28 @@ header {
     display: inline-block;
 }
 
-@media (max-width: 768px) {
-    .navegacion-principal__lista--item {
-        padding: 0;
-    }
-}
-
 .navegacion-principal__lista--item a {
     color: #ffffff;
     transition: all .3s ease-in;
     display: inline-block;
 }
 
-@media (max-width: 768px) {
-    .navegacion-principal__lista--item a {
-        display: block;
-    }
-}
+
 
 .navegacion-principal__lista--item__activo a {
     color: #FE0202;
 }
 
 .navegacion-principal__lista--item a:hover {
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
 }
 
+@media (min-width: 768px) {
+    .navegacion-principal__lista--item a:hover {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
 /** Contenido Principal **/
 .main {
     padding: 3rem 0;
@@ -199,11 +184,7 @@ header {
 
     }
 }
-
 /** Iconos redes sociales **/
-.redes-sociales {
-    background-color: #FE0202;
-}
 
 .contenedor-iconos {
     display: flex;
@@ -235,6 +216,9 @@ header {
     }
 }
 
+.redes-sociales {
+    background-color: #FE0202;
+}
 /** Footer **/
 .footer {
     border: 2px solid #000000;
@@ -280,37 +264,11 @@ header {
 }
 
 /** Formulario Contacto **/
-
 .formulario-contacto {
     margin: 0 auto;
     padding-bottom: 10rem;
 }
 
-@media (max-width: 320px) {
-    .formulario-contacto {
-        width: 28rem
-    }
-
-    ;
-}
-
-@media (min-width: 330px) {
-    .formulario-contacto {
-        width: 40rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .formulario-contacto {
-        width: 45rem;
-    }
-}
-
-@media (min-width: 1140px) {
-    .formulario-contacto {
-        width: 50rem;
-    }
-}
 
 .titulo-formulario {
     text-align: center;
@@ -357,50 +315,7 @@ header {
 
 /** Servicios **/
 
-.imagenes-servicios {
-    width: 50rem;
-    padding-bottom: 2rem;
-}
-
-@media (min-width: 500px) {
-    .servicios {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-}
-
-@media (min-width: 1040px) {
-    .servicios {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
-}
-
 /**  Galeria **/
-.imagenes-galeria {
-    display: flex;
-    flex-direction: column;
-}
-
-.imagenes-galeria .imagen-cliente {
-    max-width: 90%;
-}
-
-@media (min-width: 680px) {
-    .imagenes-galeria {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 1140px) {
-    .imagenes-galeria {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 /** Gradient **/
 body {
     background: rgba(248, 80, 50, 1);
