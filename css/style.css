@@ -151,41 +151,7 @@ header {
     gap: 2rem;
 }
 
-@media (max-width: 480px) {
-    .seccion-clientes {
-        display: block;
-    }
 
-    .seccion-clientes article {
-        padding-bottom: 2rem;
-    }
-
-    .seccion-clientes article:last-of-type {
-        padding-bottom: 0;
-    }
-
-    .texto-cliente {
-        margin: 1rem;
-    }
-
-    .descripcion-cliente {
-        line-height: 2;
-    }
-}
-
-@media (min-width: 480px) {
-    .seccion-clientes {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (min-width: 680px) {
-    .seccion-clientes {
-        display: grid;
-
-    }
-}
 /** Iconos redes sociales **/
 
 .contenedor-iconos {
