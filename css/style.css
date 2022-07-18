@@ -133,14 +133,16 @@ header {
 .imagen-cliente {
     width: 50rem;
 }
-
+.card{
+    background-color: transparent;
+    border: none;
+}
 .descripcion-cliente {
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     padding-top: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
 }
 
 .seccion-clientes {
