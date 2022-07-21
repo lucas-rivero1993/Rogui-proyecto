@@ -1,0 +1,67 @@
+/** Contenido Principal **/
+.main {
+    padding: 3rem 0;
+}
+
+.titulo-main {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.imagen-cliente {
+    width: 50rem;
+}
+.card{
+    background-color: transparent;
+    border: none;
+}
+.descripcion-cliente {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding-top: 1.5rem;
+    font-weight: 700;
+}
+
+.seccion-clientes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+
+/** Iconos redes sociales **/
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.titulo-redes {
+    padding-top: 0rem;
+}
+
+.icono-red {
+    margin: 0 3rem;
+}
+
+@media (max-width: 480px) {
+    .icono-red {
+        margin: 0;
+    }
+
+    .icono-red svg {
+        width: 5rem;
+    }
+}
+
+@media (min-width: 480px) {
+    .icono-red {
+        margin: 0;
+    }
+}
+
+.redes-sociales {
+    background-color: #FE0202;
+}

@@ -1,0 +1,49 @@
+/** Formulario Contacto **/
+.formulario-contacto {
+    margin: 0 auto;
+    padding-bottom: 10rem;
+}
+
+
+.titulo-formulario {
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+}
+
+.formulario-fieldset {
+    padding: 2rem;
+    background-color: #000000;
+}
+
+.formulario-contacto legend {
+    font-size: 2.5rem;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+}
+
+.input-formulario {
+    padding-bottom: 2rem;
+}
+
+.input-formulario label {
+    font-size: 2rem;
+    font-family: 'raleway', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    color: #FE0202;
+    display: inline-block;
+    padding-bottom: 1.5rem;
+}
+
+.input-formulario input,
+.input-formulario textarea {
+    padding: 1rem;
+    margin-left: 2rem;
+    width: 90%;
+    border: none;
+}
+
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+}
