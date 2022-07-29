@@ -47,9 +47,6 @@
   .icono-red {
     margin: 0; } }
 
-.redes-sociales {
-  background-color: #FE0202; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -115,6 +112,10 @@ body {
   background: linear-gradient(to bottom, #f85032 0%, #f16f5c 4%, #f6290c 7%, #f02f17 20%, black 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f85032', endColorstr='#000000', GradientType=0); }
 
+/** Redes Sociales **/
+.redes-sociales {
+  background-color: #FE0202; }
+
 /** Header **/
 header {
   background-color: #000000; }
@@ -130,32 +131,27 @@ header {
   background-color: #000000;
   border-top: 3px solid #FE0202;
   margin-bottom: 2rem; }
+  .navegacion-principal__lista {
+    text-align: center;
+    color: #ffffff; }
+  .navegacion-principal__lista--item, .navegacion-principal__lista--item__activo a {
+    display: inline-block; }
+  .navegacion-principal__lista--item a, .navegacion-principal__lista--item__activo a a {
+    color: #ffffff;
+    transition: all .3s ease-in;
+    display: inline-block; }
+  .navegacion-principal__lista--item__activo a {
+    color: #e80303; }
+  .navegacion-principal__lista--item a:hover, .navegacion-principal__lista--item__activo a a:hover {
+    color: #ffffff; }
 
 @media (min-width: 768px) {
   .nav-p {
     display: flex;
     justify-content: space-evenly; } }
 
-.navegacion-principal__lista {
-  text-align: center;
-  color: #ffffff; }
-
-.navegacion-principal__lista--item {
-  display: inline-block; }
-
-.navegacion-principal__lista--item a {
-  color: #ffffff;
-  transition: all .3s ease-in;
-  display: inline-block; }
-
-.navegacion-principal__lista--item__activo a {
-  color: #FE0202; }
-
-.navegacion-principal__lista--item a:hover {
-  color: #ffffff; }
-
 @media (min-width: 768px) {
-  .navegacion-principal__lista--item a:hover {
+  .navegacion-principal__lista--item a:hover, .navegacion-principal__lista--item__activo a a:hover {
     background-color: #ffffff;
     color: #000000; } }
 
@@ -170,14 +166,17 @@ header {
   color: #ffffff; }
 
 /** Quienes somos **/
-.texto-quienes-somos {
+.texto-quienes-somos, .texto-quienes-somos-color {
   padding: 4rem 0;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   line-height: 2;
   font-weight: 700;
-  margin: 0 1rem;
-  color: #ffffff; }
+  margin: 0 1rem; }
+
+.texto-quienes-somos-color {
+  color: #e1e1e1;
+  font-size: 2rem; }
 
 /** Formulario Contacto **/
 .formulario-contacto {

@@ -6,5 +6,10 @@
     line-height: 2;
     font-weight: 700;
     margin: 0 1rem;
-    color: #ffffff;
+}
+
+.texto-quienes-somos-color{
+    @extend .texto-quienes-somos;
+    color: #e1e1e1;
+    font-size: 2rem;
 }
