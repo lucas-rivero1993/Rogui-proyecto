@@ -99,7 +99,8 @@ img {
   transition: .5s; }
 
 .boton:hover {
-  color: #ffffff; }
+  color: #000000;
+  background-color: #FE0202; }
 
 /** Gradient **/
 body {
@@ -178,6 +179,7 @@ header {
   color: #e1e1e1;
   font-size: 2rem; }
 
+@use '/scss/mixins';
 /** Formulario Contacto **/
 .formulario-contacto {
   margin: 0 auto;
@@ -218,3 +220,8 @@ header {
 .contenedor-boton {
   display: flex;
   justify-content: center; }
+
+.boton {
+  border: 3px solid #FE0202;
+  background-color: #000000;
+  color: #ff030c; }
