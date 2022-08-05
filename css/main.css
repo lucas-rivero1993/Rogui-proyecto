@@ -180,7 +180,6 @@ header {
   color: #e1e1e1;
   font-size: 2rem; }
 
-@use '/scss/mixins';
 /** Formulario Contacto **/
 .formulario-contacto {
   margin: 0 auto;
