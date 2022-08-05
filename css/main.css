@@ -29,7 +29,8 @@
 .contenedor-iconos {
   display: flex;
   justify-content: space-around;
-  padding: 2rem 0; }
+  padding: 2rem 0;
+  flex-wrap: wrap; }
 
 .titulo-redes {
   padding-top: 0rem; }
