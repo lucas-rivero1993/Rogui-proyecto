@@ -20,11 +20,6 @@
   padding-top: 1.5rem;
   font-weight: 700; }
 
-.seccion-clientes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem; }
-
 /** Iconos redes sociales **/
 .contenedor-iconos {
   display: flex;
@@ -180,6 +175,7 @@ header {
   color: #e1e1e1;
   font-size: 2rem; }
 
+@use '/scss/mixins';
 /** Formulario Contacto **/
 .formulario-contacto {
   margin: 0 auto;
