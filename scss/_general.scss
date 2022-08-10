@@ -81,3 +81,38 @@ body {
 .redes-sociales {
     background-color: map-get($colores, "color-redes");
 }
+
+
+/** Iconos redes sociales **/
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+
+
+.titulo-redes {
+    padding-top: 0rem;
+}
+
+.icono-red {
+    margin: 0 3rem;
+}
+
+@media (max-width: 480px) {
+    .icono-red {
+        margin: 0;
+    }
+
+    .icono-red svg {
+        width: 5rem;
+    }
+}
+
+@media (min-width: 480px) {
+    .icono-red {
+        margin: 0;
+    }
+}
