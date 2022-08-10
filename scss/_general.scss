@@ -116,3 +116,15 @@ body {
         margin: 0;
     }
 }
+
+@media (max-width: 590px) {
+    .contenedor-iconos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .icono-red{
+        display: flex;
+        justify-content: center;
+    }
+}
