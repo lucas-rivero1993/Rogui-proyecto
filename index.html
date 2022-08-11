@@ -29,16 +29,33 @@
     </header>
     <nav class="navegacion-principal">
         <ul class="navegacion-principal__lista">
-            <div class="row nav-p container-fluid">
-                <li class="navegacion-principal__lista--item navegacion-principal__lista--item__activo col-sm-2"><a
-                        href="./index.html">Inicio</a></li>
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="./pages/quienes-somos.html">Quienes
-                        somos</a>
+            <div class="row nav-p container-fluid d-flex justify-content-evenly">
+                <li class="navegacion-principal__lista--item navegacion-principal__lista--item__activo col-md-2">
+                    <a href="./index.html" class="nav-link">Inicio</a>
                 </li>
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="./pages/servicios.html">Servicios</a>
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a href="./pages/quienes-somos.html" class="nav-link">Quienes somos</a>
                 </li>
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="./pages/galeria.html">Galería</a></li>
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="./pages/contacto.html">Contacto</a></li>
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a  data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Servicios</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="./pages/servicio-sonido-iluminacion.html" class="dropdown-item">Sonido e iluminación</a>
+                        </li>
+                        <li>
+                            <a href="./pages/servicio-candybar.html" class="dropdown-item">Candy Bar</a>
+                        </li>
+                        <li>
+                            <a href="./pages/servicio-dj.html" class="dropdown-item">Servicio DJ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a href="./pages/galeria.html" class="nav-link">Galería</a>
+                </li>
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a href="./pages/contacto.html" class="nav-link">Contacto</a>
+                </li>
             </div>
         </ul>
     </nav>

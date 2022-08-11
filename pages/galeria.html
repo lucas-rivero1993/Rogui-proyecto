@@ -27,16 +27,35 @@
             <h1 class="display-1 text-light">Rogui Sonido & <span>iluminación</span></h1>
         </a>
     </header>
-    <nav class="navegacion-principal container-fluid">
+    <nav class="navegacion-principal">
         <ul class="navegacion-principal__lista">
-            <div class="row nav-p">
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="../index.html">Inicio</a></li>
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="./quienes-somos.html">Quienes somos</a>
+            <div class="row nav-p container-fluid d-flex justify-content-evenly">
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a href="../index.html" class="nav-link">Inicio</a>
                 </li>
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="./servicios.html">Servicios</a></li>
-                <li class="navegacion-principal__lista--item col-sm-2 navegacion-principal__lista--item__activo"><a
-                        href="./galeria.html">Galería</a></li>
-                <li class="navegacion-principal__lista--item col-sm-2"><a href="./contacto.html">Contacto</a></li>
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a href="./quienes-somos.html" class="nav-link">Quienes somos</a>
+                </li>
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a  data-bs-toggle="dropdown" class="nav-link dropdown-toggle">Servicios</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="./servicio-sonido-iluminacion.html" class="dropdown-item">Sonido e iluminación</a>
+                        </li>
+                        <li>
+                            <a href="./servicio-candybar.html" class="dropdown-item">Candy Bar</a>
+                        </li>
+                        <li>
+                            <a href="./servicio-dj.html" class="dropdown-item">Servicio DJ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navegacion-principal__lista--item navegacion-principal__lista--item__activo col-md-2">
+                    <a href="./galeria.html" class="nav-link">Galería</a>
+                </li>
+                <li class="navegacion-principal__lista--item col-md-2">
+                    <a href="./contacto.html" class="nav-link">Contacto</a>
+                </li>
             </div>
         </ul>
     </nav>

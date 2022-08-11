@@ -26,16 +26,17 @@
     
 }
 
-@media (min-width: 768px) {
-    .nav-p{
-        display: flex;
-        justify-content: space-evenly;
-    }
-}
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .navegacion-principal__lista--item a:hover {
         background-color: #ffffff;
         color: #000000;
     }
+}
+
+.dropdown-menu{
+    background-color: #000000;
+}
+.nav-link{
+    padding: 2rem 3rem;
 }
