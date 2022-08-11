@@ -88,7 +88,9 @@ body {
 
 /** Redes Sociales **/
 .redes-sociales {
-  background-color: #FE0202; }
+  background-color: #000000;
+  border-top: 3px solid #FE0202;
+  padding-top: 5rem; }
 
 /** Iconos redes sociales **/
 .contenedor-iconos {
@@ -162,7 +164,7 @@ header {
 
 /** Footer **/
 .footer {
-  border: 2px solid #000000;
+  border: 3px solid #f80303;
   padding: 1.5rem;
   background-color: #000000; }
 
@@ -226,6 +228,6 @@ header {
   justify-content: center; }
 
 .boton {
-  border: 3px solid #FE0202;
+  border: 3px solid #010000;
   background-color: #000000;
   color: #ff030c; }
