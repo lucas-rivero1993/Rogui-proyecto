@@ -104,7 +104,15 @@ body {
 .icono-red {
     margin: 0 3rem;
 }
-
+.icono-red svg{
+    transition-property: transform;
+    transition-duration: .3s;
+}
+.icono-red svg:hover{
+    transform: scale(1.6);
+    background-color: #FE0202;
+    border-radius: 40%;
+}
 @media (max-width: 480px) {
     .icono-red {
         margin: 0;

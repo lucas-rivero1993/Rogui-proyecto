@@ -1,0 +1,15 @@
+.efecto{
+    transition-property: transform;
+    transition-duration: .3s;
+}
+.efecto img{
+    transition-property: border-radius;
+    transition-duration: .3s;
+    border-radius: 10%;
+}
+.efecto img:hover{
+    border-radius: 20%;
+}
+.efecto:hover{
+    transform: scale(1.2);
+}

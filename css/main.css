@@ -108,6 +108,15 @@ body {
 .icono-red {
   margin: 0 3rem; }
 
+.icono-red svg {
+  transition-property: transform;
+  transition-duration: .3s; }
+
+.icono-red svg:hover {
+  transform: scale(1.6);
+  background-color: #FE0202;
+  border-radius: 40%; }
+
 @media (max-width: 480px) {
   .icono-red {
     margin: 0; }
@@ -235,3 +244,18 @@ header {
   border: 3px solid #fa0101;
   background-color: #000000;
   color: #ff030c; }
+
+.efecto {
+  transition-property: transform;
+  transition-duration: .3s; }
+
+.efecto img {
+  transition-property: border-radius;
+  transition-duration: .3s;
+  border-radius: 10%; }
+
+.efecto img:hover {
+  border-radius: 20%; }
+
+.efecto:hover {
+  transform: scale(1.2); }
