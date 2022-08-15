@@ -13,3 +13,15 @@
     color: #e1e1e1;
     font-size: 2rem;
 }
+
+.carousel-section{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    width: 70rem;
+}
+
+.carousel-item img{
+    border-radius: 10%;
+}
